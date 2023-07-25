@@ -1,7 +1,10 @@
-.venv/
-__pycache__/
 brain_games/**/*.pyc
-dist/
 dist/*.*
 /bak/
+__pycache__
+dist/
+*.pyc
+.venv/
+.coverage
+coverage.xml
 .pytest_cache/
