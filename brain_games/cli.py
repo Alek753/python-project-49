@@ -11,7 +11,7 @@ def welcome_user():
 def answer_dialog(question, correct_answer):
     print(question)
     user_answer = prompt.string('Your answer: ')
-    if user_answer == correct_answer:
+    if user_answer == str(correct_answer):
         print('Correct!')
         return 1
     else:

@@ -1,14 +1,17 @@
 from brain_games.cli import answer_dialog
 from random import randint
+import random
 
 
 def calc():
-    number1 = randint(1, 999)
-    number2 = randint(1, 999)
-    oper = random.choise(["+", "-", "*"])
+    number1 = randint(1, 99)
+    number2 = randint(1, 99)
+    oper = random.choice(["+", "-", "*"])
     question = f'Question: {number1} {oper} {number2}'
-    if number % 2 == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
+    if oper == '+':
+        correct_answer = number1 + number2
+    elif oper == '-':
+        correct_answer = number1 - number2
+    elif oper == '*':
+        correct_answer = number1 * number2
     return answer_dialog(question, correct_answer)
