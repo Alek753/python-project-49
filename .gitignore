@@ -2,7 +2,9 @@ brain_games/**/*.pyc
 dist/*.*
 /bak/
 __pycache__
-dist/
+/brain_games/__pycache__/
+brain_games/scripts/__pycache__/
+/dist/
 *.pyc
 .venv/
 .coverage
