@@ -1,12 +1,12 @@
-brain_games/**/*.pyc
-dist/*.*
+# brain_games/**/*.pyc
+dist/
 /bak/
 __pycache__
-/brain_games/__pycache__/*
-brain_games/scripts/__pycache__/*
-brain_games/__pycache__/__init__.cpython-38.pyc
-/dist/*
-*.pyc
+# /brain_games/__pycache__/*
+#brain_games/scripts/__pycache__/*
+# brain_games/__pycache__/__init__.cpython-38.pyc
+#/dist/*
+# *.pyc
 .venv/
 .coverage
 coverage.xml
