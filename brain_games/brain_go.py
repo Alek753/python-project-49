@@ -2,6 +2,7 @@ from brain_games.cli import welcome_user
 from brain_games.games.even import even
 from brain_games.games.calc import calc
 from brain_games.games.mygcd import mygcd
+from brain_games.games.progression import progression
 
 
 def brain_go(game):
@@ -20,7 +21,10 @@ def brain_go(game):
         elif game == 'gcd':
             if counter == 0:
                 print('Find the greatest common divisor of given numbers.')
-            res = mygcd()
+        elif game == 'progression':
+            if counter == 0:
+                print('What number is missing in the progression?')
+            res = progression()
         counter += 1
     if counter == 3:
         print(f'Congratulations, {name}!')
