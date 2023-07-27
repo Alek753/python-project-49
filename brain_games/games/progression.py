@@ -14,6 +14,6 @@ def progression():
         if i != excluded:
             question += f' {elem}'
         else:
-            question += ' .. '
+            question += ' ..'
     correct_answer = numbers[excluded]
     return answer_dialog(question, correct_answer)
