@@ -1,13 +1,9 @@
-# brain_games/**/*.pyc
+*.egg-info
+__pycache__
 dist/
-/bak/
-__pycache__/
-# /brain_games/__pycache__/*
-#brain_games/scripts/__pycache__/*
-# brain_games/__pycache__/__init__.cpython-38.pyc
-#/dist/*
-# *.pyc
+*.pyc
 .venv/
 .coverage
 coverage.xml
 .pytest_cache/
+/bak/

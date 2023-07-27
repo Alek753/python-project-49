@@ -9,19 +9,19 @@ from brain_games.games.prime import prime
 def brain_go(game, task):
     name = welcome_user()
     counter = 0
-    res = 1
+    result = 1
     print(task)
-    while counter < 3 and res != 0:
+    while counter < 3 and result != 0:
         if game == 'even':
-            res = even()
+            result = even()
         elif game == 'calc':
-            res = calc()
+            result = calc()
         elif game == 'gcd':
-            res = mygcd()
+            result = mygcd()
         elif game == 'progression':
-            res = progression()
+            result = progression()
         elif game == 'prime':
-            res = prime()
+            result = prime()
         counter += 1
     if counter == 3:
         print(f'Congratulations, {name}!')
