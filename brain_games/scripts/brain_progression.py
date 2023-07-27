@@ -3,7 +3,7 @@ from brain_games.brain_go import brain_go
 
 
 def main():
-    brain_go('progression')
+    brain_go('progression', 'What number is missing in the progression?')
 
 
 if __name__ == '__main__':
