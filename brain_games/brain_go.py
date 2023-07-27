@@ -12,7 +12,8 @@ def brain_go(game):
     while counter < 3 and res != 0:
         if game == 'even':
             if counter == 0:
-                print('Answer "yes" if the number is even, otherwise answer "no".')
+                print('Answer "yes" if the number is even,'
+                      ' otherwise answer "no".')
             res = even()
         elif game == 'calc':
             if counter == 0:
@@ -21,6 +22,7 @@ def brain_go(game):
         elif game == 'gcd':
             if counter == 0:
                 print('Find the greatest common divisor of given numbers.')
+            res = mygcd()
         elif game == 'progression':
             if counter == 0:
                 print('What number is missing in the progression?')

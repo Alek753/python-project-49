@@ -19,6 +19,9 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
+brain-progression:
+	poetry run brain-progression
+
 lint:
 	poetry run flake8 brain_games
 
