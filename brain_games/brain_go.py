@@ -1,9 +1,16 @@
-from brain_games.cli import welcome_user
+import prompt
 from brain_games.games.even import even
 from brain_games.games.calc import calc
 from brain_games.games.mygcd import mygcd
 from brain_games.games.progression import progression
 from brain_games.games.prime import prime
+
+
+def welcome_user():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I hace your name? ')
+    print(f'Hello, {name}!')
+    return name
 
 
 def brain_go(game, task):

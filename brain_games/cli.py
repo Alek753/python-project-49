@@ -5,7 +5,6 @@ def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I hace your name? ')
     print(f'Hello, {name}!')
-    return name
 
 
 def answer_dialog(question, correct_answer):
