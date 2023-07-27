@@ -29,7 +29,7 @@ def brain_go(game, task):
             result = progression()
         elif game == 'prime':
             result = prime()
-        counter += 1
+        counter += result
     if counter == 3:
         print(f'Congratulations, {name}!')
     else:
