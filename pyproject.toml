@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Hexlet Python Project 1"
 authors = ["Aleksei Semenov <alek753@yandex.ru>"]
 repository  = "https://github.com/Alek753/python-project-49"
-classifiers = ["Programming Language :: Python :: 3.8"]
+classifiers = ["Programming Language :: Python :: 3.8.1"]
 readme = "README.md"
 packages = [{ include = "brain_games" }]
 
