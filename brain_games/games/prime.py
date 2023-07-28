@@ -5,14 +5,13 @@ GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_start():
-    number = randint(0, 99)
+    number = randint(1, 99)
     question = f'Question: {number}'
+    correct_answer = 'yes'
     if number < 2:
         correct_answer = 'no'
-    for i in range(2, (number // 2) + 2):
+    for i in range(2, (number // 2) + 1):
         if number % i == 0:
             correct_answer = 'no'
             break
-        else:
-            correct_answer = 'yes'
     return question, correct_answer
