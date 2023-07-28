@@ -34,17 +34,17 @@ export PATH=$PATH:/home/<your user name>/.local/bin
 
 ## Some examples of game process:
 
-##Even
+###Even
 https://asciinema.org/a/4UtjAFQDtMWYgJqQg7Vw8ZLoy
 
-##Calc
+###Calc
 https://asciinema.org/a/WhrfJBPEWscuZ0y0mHykhSjsz
 
-##GCD
+###GCD
 https://asciinema.org/a/qkhL2dt5dS3bpbZXVjGbg2xUC
 
-##Progression
+###Progression
 https://asciinema.org/a/QqB27Id3Hwign8yXXImfCL9mz
 
-##Prime
+###Prime
 https://asciinema.org/a/T3Lo4sexDpRdyHxEHV08vOSJA
