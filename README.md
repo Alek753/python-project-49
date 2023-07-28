@@ -29,22 +29,22 @@ pip install --user git+https://github.com/Alek753/python-project-49
 
 ### By default game scripts are installed into /usr/.local/bin. You shuold add thin dir to PATH:
 ```bash
-export PATH=$PATH:/home/test/.local/bin
+export PATH=$PATH:/home/<your user name>/.local/bin
 ```
 
 ## Some examples of game process:
 
 ##Even
-https://asciinema.org/a/I3CKKNMEk9pI7csOU5tF94C42
+https://asciinema.org/a/4UtjAFQDtMWYgJqQg7Vw8ZLoy
 
 ##Calc
-https://asciinema.org/a/CDOd4zcfytLroMr1HY4VinfnP
+https://asciinema.org/a/WhrfJBPEWscuZ0y0mHykhSjsz
 
 ##GCD
 https://asciinema.org/a/qkhL2dt5dS3bpbZXVjGbg2xUC
 
 ##Progression
-https://asciinema.org/a/ignchLFLdar3CrmKoWJEA729j
+https://asciinema.org/a/QqB27Id3Hwign8yXXImfCL9mz
 
 ##Prime
 https://asciinema.org/a/T3Lo4sexDpRdyHxEHV08vOSJA
