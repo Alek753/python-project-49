@@ -1,9 +1,4 @@
 import prompt
-from brain_games.games.even import even
-from brain_games.games.calc import calc
-from brain_games.games.mygcd import mygcd
-from brain_games.games.progression import progression
-from brain_games.games.prime import prime
 
 
 def welcome_user():
@@ -13,22 +8,26 @@ def welcome_user():
     return name
 
 
-def brain_go(game, task):
+def answer_dialog(question, correct_answer):
+    print(question)
+    user_answer = prompt.string('Your answer: ')
+    if user_answer == str(correct_answer):
+        print('Correct!')
+        return 1
+    else:
+        print(f"'{user_answer}' is wrong answer ;(."
+              f" Correct answer was '{correct_answer}'.")
+        return 0
+
+
+def brain_go(game):
     name = welcome_user()
     counter = 0
     result = 1
-    print(task)
+    print(game.GAME_TASK)
     while counter < 3 and result != 0:
-        if game == 'even':
-            result = even()
-        elif game == 'calc':
-            result = calc()
-        elif game == 'gcd':
-            result = mygcd()
-        elif game == 'progression':
-            result = progression()
-        elif game == 'prime':
-            result = prime()
+        question, correct_answer = game.game_start()
+        result = answer_dialog(question, correct_answer)
         counter += result
     if counter == 3:
         print(f'Congratulations, {name}!')

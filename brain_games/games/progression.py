@@ -1,8 +1,10 @@
-from brain_games.cli import answer_dialog
 from random import randint
 
 
-def progression():
+GAME_TASK = 'What number is missing in the progression?'
+
+
+def game_start():
     left_border = randint(1, 10)
     iterate = randint(1, 10)
     progr_range = randint(5, 10)
@@ -16,4 +18,4 @@ def progression():
         else:
             question += ' ..'
     correct_answer = numbers[excluded]
-    return answer_dialog(question, correct_answer)
+    return question, correct_answer
