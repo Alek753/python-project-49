@@ -9,32 +9,30 @@
 * Calc game - the user is asked for the answer of a math expression
 * GDC game - the user is asked to find the greatest common devisor of two numbers
 * Progression game - the user is asked to find the missing number in the arithmetic progression
-* Prime game- the user is asked if the given number is prime or not
+* Prime game- the user is asked whether the given number is prime or not
 
 ## Minimum requirements
-Python 3.8.1
-pip 23.2.1
+Python 3.8.1 (whith pip)
 
 
 ## Installation
 ### Make sure you have installed latest pip. If don't, install it:
+```bash
 sudo apt update
 sudo apt install python3-pip
+```
 
 ### Install package from GitHub into current user environment:
+```bash
 pip install --user git+https://github.com/Alek753/python-project-49
+```
 
 ### By default game scripts are installed into /usr/.local/bin. You shuold add thin dir to PATH:
+```bash
 export PATH=$PATH:/home/test/.local/bin
-
+```
 
 ## Some examples of game process:
-
-### Initialize environment, build dist and install into user's environment
-make install
-make build
-make package-install
-
 
 ##Even
 https://asciinema.org/a/I3CKKNMEk9pI7csOU5tF94C42
