@@ -35,16 +35,16 @@ export PATH=$PATH:/home/<your user name>/.local/bin
 ## Some examples of game process:
 
 ###Even
-https://asciinema.org/a/4UtjAFQDtMWYgJqQg7Vw8ZLoy
+[![asciicast](https://asciinema.org/a/4UtjAFQDtMWYgJqQg7Vw8ZLoy.svg)](https://asciinema.org/a/4UtjAFQDtMWYgJqQg7Vw8ZLoy)
 
 ###Calc
-https://asciinema.org/a/WhrfJBPEWscuZ0y0mHykhSjsz
+[![asciicast](https://asciinema.org/a/WhrfJBPEWscuZ0y0mHykhSjsz.svg)](https://asciinema.org/a/WhrfJBPEWscuZ0y0mHykhSjsz)
 
 ###GCD
-https://asciinema.org/a/qkhL2dt5dS3bpbZXVjGbg2xUC
+[![asciicast](https://asciinema.org/a/qkhL2dt5dS3bpbZXVjGbg2xUC.svg)](https://asciinema.org/a/qkhL2dt5dS3bpbZXVjGbg2xUC)
 
 ###Progression
-https://asciinema.org/a/QqB27Id3Hwign8yXXImfCL9mz
+[![asciicast](https://asciinema.org/a/QqB27Id3Hwign8yXXImfCL9mz.svg)](https://asciinema.org/a/QqB27Id3Hwign8yXXImfCL9mz)
 
 ###Prime
-https://asciinema.org/a/T3Lo4sexDpRdyHxEHV08vOSJA
+[![asciicast](https://asciinema.org/a/T3Lo4sexDpRdyHxEHV08vOSJA.svg)](https://asciinema.org/a/T3Lo4sexDpRdyHxEHV08vOSJA)
