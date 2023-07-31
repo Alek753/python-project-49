@@ -12,19 +12,14 @@ def generate_numbers():
     return list(range(left_border, right_border + iterate, iterate))
 
 
-def get_question(numbers, excluded):
+def get_game():
+    numbers = generate_numbers()
+    excluded = randint(0, len(numbers) - 1)
+    correct_answer = str(numbers[excluded])
     question = 'Question:'
     for (i, elem) in enumerate(numbers):
         if i != excluded:
             question += f' {elem}'
         else:
             question += ' ..'
-    return question
-
-
-def get_game():
-    numbers = generate_numbers()
-    excluded = randint(0, len(numbers) - 1)
-    correct_answer = numbers[excluded]
-    question = get_question(numbers, excluded)
-    return question, str(correct_answer)
+    return question, correct_answer
